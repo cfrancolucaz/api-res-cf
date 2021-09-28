@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false })); //body formulario
 
 const db= require('./app/models/index.js');
 db.sequelize.sync();
+//db.sequelize.sync({force:true});
 
 //Pruebas
 app.get("/", (req,res) => {    
