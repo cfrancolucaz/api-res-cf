@@ -1,11 +1,11 @@
 const Sequelize = require("sequelize");
-/*
+
 //DB Heroku
 const sequelize = new Sequelize({
-  database: "",
-  username: "",
-  password: "",
-  host: "",
+  database: "dbubhpaaftc95t",
+  username: "pqqqdygtzrgwgy",
+  password: "63a4bcbc89a13912d011e8945520cc87f309a4a20c9c100b39778921950718e8",
+  host: "ec2-34-194-123-31.compute-1.amazonaws.com",
   port: 5432,
   dialect: "postgres",
   dialectOptions: {
@@ -15,9 +15,9 @@ const sequelize = new Sequelize({
     }
   }
 });
-*/
 
 
+/*
 //DB Local
 const sequelize = new Sequelize({
   database: "cfrancoDB",
@@ -34,6 +34,7 @@ const sequelize = new Sequelize({
         idle:10000
   }
 });
+*/
 
 
 
