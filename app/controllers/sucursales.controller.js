@@ -16,7 +16,7 @@ exports.create = (req, res) => {
   const _Sucursales = {
     descripcion: req.body.descripcion,
     regionesId: req.body.regionesId,
-    departamentosId: req.body.regionesId,
+    departamentosId: req.body.departamentosId,
     municipiosId: req.body.municipiosId,
     comerciosId: req.body.comerciosId
   };

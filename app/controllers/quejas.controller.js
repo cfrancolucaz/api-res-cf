@@ -17,7 +17,7 @@ exports.create = (req, res) => {
     descripcion: req.body.descripcion,
     fecha: req.body.fecha,
     regionesId: req.body.regionesId,
-    departamentosId: req.body.regionesId,
+    departamentosId: req.body.departamentosId,
     municipiosId: req.body.municipiosId,
     comerciosId: req.body.comerciosId,
     sucursalesId: req.body.sucursalesId

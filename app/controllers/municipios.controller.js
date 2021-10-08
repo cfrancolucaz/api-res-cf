@@ -15,7 +15,7 @@ exports.create = (req, res) => {
   
   const _Municipios = {
     descripcion: req.body.descripcion,
-    departamentosId: req.body.regionesId
+    departamentosId: req.body.departamentosId
   };
 
 
